@@ -195,7 +195,6 @@ img {
   font-size: 25px;
   font-weight: bold;
 }
-
 @media only screen and (max-width: 640px) {
 .hero-section .hero-section-text .h1 { 
   font-size: 1.5em; 
@@ -617,8 +616,8 @@ input[type=checkbox]:checked ~ #menu{
   top: 25px;
   left: 25px;
   z-index: 2;    
-background-size: 100%;
-background-color: #ffffff;
-    height: 100vh;
-    width: 100%;
+  background-size: 100%;
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
 }
