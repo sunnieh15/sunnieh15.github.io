@@ -194,7 +194,12 @@ img {
 }
 @media only screen and (max-width: 640px) {
 .hero-section .hero-section-text .h1 { 
-  font-size: 2em; 
+  font-size: 1.5em; 
+  }
+}
+@media only screen and (max-width: 640px) {
+.hero-section-text .h2 { 
+  font-size: 16px; 
   }
 }
 .map {
@@ -592,11 +597,10 @@ input[type=checkbox]:checked ~ #menu{
 .ministrycard {
   width: 100%;
   display: block;
-  }
-.logo
-    {
+}
+.logo {
   position:absolute;
   top: 25px;
   left: 25px;
   z-index: 2;
-    }
+}
