@@ -166,7 +166,7 @@ img {
   }
 }
 .hero-section {
-  background: url("../images/congregation.jpg") 50% no-repeat;
+  background: url("../images/congregation.jpg")50% no-repeat;
   background-size: cover;
   height: 40vh;
   text-align: center;
@@ -180,6 +180,9 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.hero-section img {
+  background-color: #ffffff;
+}
 .hero-section .hero-section-text .h1 {
   color: #fefefe;
   text-shadow: 1px 1px 2px #0a0a0a;
@@ -192,6 +195,7 @@ img {
   font-size: 25px;
   font-weight: bold;
 }
+
 @media only screen and (max-width: 640px) {
 .hero-section .hero-section-text .h1 { 
   font-size: 1.5em; 
@@ -612,5 +616,9 @@ input[type=checkbox]:checked ~ #menu{
   position:absolute;
   top: 25px;
   left: 25px;
-  z-index: 2;
+  z-index: 2;    
+background-size: 100%;
+background-color: #ffffff;
+    height: 100vh;
+    width: 100%;
 }
