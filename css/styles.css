@@ -585,13 +585,18 @@ input[type=checkbox]:checked ~ #menu{
     }
 }
 .ministrycard {
-
   text-align: left;
   background-color: #ffffff;
 }
 @media screen and (max-width: 600px) {
-  .ministrycard {
-    width: 100%;
-    display: block;
+.ministrycard {
+  width: 100%;
+  display: block;
   }
-
+.logo
+    {
+  position:absolute;
+  top: 25px;
+  left: 25px;
+  z-index: 2;
+    }
