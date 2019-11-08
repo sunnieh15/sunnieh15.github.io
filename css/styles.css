@@ -166,7 +166,7 @@ img {
   }
 }
 .hero-section {
-  background: url("../images/congregation.jpg")50% no-repeat;
+  background: url("../images/congregation.jpg") 50% no-repeat;
   background-size: cover;
   height: 40vh;
   text-align: center;
@@ -180,9 +180,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.hero-section img {
-  background-color: #ffffff;
-}
 .hero-section .hero-section-text .h1 {
   color: #fefefe;
   text-shadow: 1px 1px 2px #0a0a0a;
@@ -195,6 +192,9 @@ img {
   font-size: 25px;
   font-weight: bold;
 }
+.hero-section .hero-section-text .herologo {
+  display: block;margin-left: auto;margin-right: auto;width:200px;height:175px;
+}
 @media only screen and (max-width: 640px) {
 .hero-section .hero-section-text .h1 { 
   font-size: 1.5em; 
@@ -203,6 +203,11 @@ img {
 @media only screen and (max-width: 640px) {
 .hero-section-text .h2 { 
   font-size: 16px; 
+  }
+}
+@media only screen and (max-width: 640px) {
+.hero-section .hero-section-text .herologo { 
+  display: block;margin-left: auto;margin-right: auto;width:150px;height:125px;
   }
 }
 .map {
@@ -231,6 +236,7 @@ img {
   text-align: center;
   margin-bottom: 40px;
   }
+
 }
 .hidden {
   display: none;  
