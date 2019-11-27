@@ -17,6 +17,33 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
 
+<style>
+.card-img-bottom1 {
+  color: #fff;
+  height: 12rem;
+  background: url("images/brooks.jpg") center no-repeat;
+  background-size: contain;
+}
+.card-img-bottom2 {
+  color: #fff;
+  height: 12rem;
+  background: url("images/halloween.jpg") center no-repeat;
+  background-size: contain;
+}
+@media only screen and (max-width: 640px) {
+.column-50 { 
+  width: 100%;
+  display: block;
+  }
+}
+@media only screen and (max-width:1024px) {
+.column-50 { 
+  width: 100%;
+  display: block;
+  }
+}
+</style>
+
 </head>
 
 <body>
@@ -66,7 +93,7 @@
   <div class="container2">
     <div class="row">      
       <div class="column-66">
-        <img src="images/baldwin-family.jpg" alt="Baldwin Family" class="rounded-circle" style="margin-top:0px;float:left;padding-right:15px;"/>
+        <img src="images/baldwin-family.jpg" alt="Baldwin Family" class="rounded-circle" style="margin-top:0px;float:left;padding-right:15px;padding-bottom:75px;"/>
         <p class="xlarge-font3">Message From Our Pastor</p>
         <p class="space">Thank you for your interest in Antioch Baptist Church. Antioch wants to make a lasting difference in your life, in our community, and in the world by leading people to become fully devoted followers of Christ. We are a Bible believing and teaching church filled with the Holy Spirit, and our congregation is a friendly group of people who enjoy coming together to praise our Lord. Our mission is <em>"to convince the unconvinced that there is redemption from sin and abundant life ON EARTH even into the afterlife through our Lord and Savior Jesus Christ" (John 10:10)</em></p>
         <p class="space">On our website you will find information about who we are and what you can expect when you come to Antioch Baptist Church. So come join us for the Antioch experience. We know you will find our church family to be one that enthusiastically embraces newcomers and warmly welcomes them into our fellowship. We look forward to meeting you and getting to know you better!</p>
@@ -87,23 +114,63 @@
     </div>
   </div>
     
-  <!-- Upcoming Events One Row Version -->
+    
+   
+  <!-- Upcoming Events -->
   <div class="container3">
     <div class="row">
-      <div class="column-33">
-          <img src="images/halloween.jpg" alt="Harvest Festival flyer" style="margin-top:0px;" />
+      <div class="column-full">
+          <p class="xlarge-font3">Upcoming Events</p>
+   
+          
+ 
+          
+          
+ <div class="column-50">
+    <div class="card">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card-block">
+            <p class="large-font2">Men's Annual Day Celebration</p>
+            <p class="large-font4">December 8, 2019 @ 11:00 AM</p>
+            <p style="font-size:18px">Guest Speaker: Rev. Harold Brooks, First Baptist Church, Washington, DC.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-img-bottom1">
+          </div>
+        </div>
       </div>
-      <div class="column-66">
-        <p class="xlarge-font3">Upcoming Events</p>
-        <p class="xlarge-font2">Harvest Festival</p>
-        <p class="large-font1">October 31, 2019 @ 6:30 PM</p>
-        <p>Bring the whole family to the Harvest Festival at Antioch. We will have an evening of food, games, fellowship, family, and fun that is safe and convenient for kids and adults of all ages. Invite your friends and neighbors and come join the fun! This event will occur rain or shine.</p>
+    </div>
+  </div> 
+          
+          
+  
+ <div class="column-50">
+    <div class="card">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card-block">
+            <p class="large-font2">Sunday School Christmas Presentation</p>
+            <p class="large-font4">December 15, 2019 @ 10:00 AM</p>
+            <p style="font-size:18px">Come out and see.... Fill in text here.<br>More text.</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card-img-bottom2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+       <div style='clear:both'></div>    
+ 
+          
         <a class="btn btn-primary" href="http://www.antiochabc.org/CalendarPage.asp" role="button">View Calendar of Events</a>
       </div>
     </div>
   </div>
     
-
     
   <!-- Social Media Bar -->
   <div class="container6">
@@ -118,7 +185,6 @@
   </div>
     
 
-    
   <!-- 4 Cards -->
   <div class="container5">
     <div class="row">
@@ -127,7 +193,7 @@
         <img src="images/mission.jpg" alt="Mission and Vision" style="width:100%;" />
         <p class="large-font1" style="margin-top:10px;">Mission &amp; Vision</p>
         <p>Learn the purpose of Antioch Baptist Church, our goal, and what we wish to achieve.</p>
-        <a href="mission.html" class="btn btn-outline-dark">Read Mission Statement</a>  
+        <a href="mission.html" class="btn btn-outline-dark" style="font-size:16px;">Read More</a>  
       </div>
     </div>
         
@@ -136,7 +202,7 @@
         <img src="images/ministries.jpg" alt="Ministries" style="width:100%;" />
         <p class="large-font1" style="margin-top:10px;">Church Ministries</p>
         <p>Learn about our various ministries designed to serve the church and the community.</p>
-        <a href="ministries.html" class="btn btn-outline-dark">Learn More</a>  
+        <a href="ministries.html" class="btn btn-outline-dark" style="font-size:16px;">Learn More</a>  
       </div>
     </div>
         
@@ -144,8 +210,8 @@
       <div class="card card-body h-100">
         <img src="images/watch-online.jpg" alt="Prayer Request" style="width:100%;" />
         <p class="large-font1" style="margin-top:10px;">Watch Online</p>
-        <p>Unable to make it in person or missed this week's message? You can now view past sermons online.</p>
-        <a href="watch-online.html" class="btn btn-outline-dark">Watch Past Sermons</a>  
+        <p>Unable to make it in person? Missed this week's message? View past sermons online.</p>
+        <a href="watch-online.html" class="btn btn-outline-dark" style="font-size:16px;">Watch Now</a>  
       </div>
     </div>   
   
@@ -154,12 +220,12 @@
         <img src="images/directions.jpg" alt="Directions" style="width:100%;" />
         <p class="large-font1" style="margin-top:10px;">Visit Us</p>
         <p>Antioch is located at 1105 50th Street, NE, Washington, DC. Get driving directions for your visit.</p>
-        <a href="https://maps.google.com/maps?ll=38.904982,-76.928258&z=16&t=m&hl=en&gl=US&mapclient=embed&daddr=1105%2050th%20St%20NE%20Washington%2C%20DC%2020019@38.9049824,-76.9282583" class="btn btn-outline-dark">Get Directions</a>  
+        <a href="https://maps.google.com/maps?ll=38.904982,-76.928258&z=16&t=m&hl=en&gl=US&mapclient=embed&daddr=1105%2050th%20St%20NE%20Washington%2C%20DC%2020019@38.9049824,-76.9282583" class="btn btn-outline-dark" style="font-size:16px;">Directions</a>  
       </div>
     </div>
     </div>
   </div>
-
+  
     
   <!-- Give -->
   <div class="container2">
@@ -175,7 +241,8 @@
       </div>
     </div>
   </div>
-     
+    
+    
     
   <!-- Prayer Line -->
   <div class="container3">
@@ -191,6 +258,7 @@
       </div>
     </div>
   </div>
+    
 
 </section>
 
@@ -209,7 +277,7 @@
 
   <!-- Links -->
   <p class="font-weight-bold text-uppercase mt-3 mb-4" style="color: #ffffff;font-size:1.20rem;">Times of Service</p>
-  <p>Sunday School:&nbsp;&nbsp;9:30 AM<br>Sunday Service:&nbsp;&nbsp;11:00 AM<br><br>Youth Sunday:&nbsp;&nbsp;1<sup>st</sup> Sunday<br>Communion:&nbsp;&nbsp;3<sup>rd</sup> Sunday</p>
+  <p>Sunday School: 9:30 AM<br>Sunday Service: 11:00 AM<br><br>Youth Sunday: 1st Sunday<br>Communion: 3rd Sunday</p>
 
   </div>
   <!-- Grid column -->
@@ -296,8 +364,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-</script>
-
+</script>  
+    
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
