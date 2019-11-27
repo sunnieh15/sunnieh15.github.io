@@ -168,7 +168,7 @@ img {
 .hero-section {
   background: url("../images/congregation.jpg") 50% no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 45vh;
   text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
