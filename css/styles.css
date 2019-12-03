@@ -111,6 +111,11 @@ a:hover {
   width: 50%;
   padding: 20px;
 }
+.column-3 {
+  float: left;
+  width: 33%;
+  padding: 20px;
+}
 .column-full {
   float: left;
   width: 100%;
@@ -143,9 +148,10 @@ a:hover {
   font-weight: bold;
 }
 .large-font2 {
-  font-size: 22px;
+  font-size: 20px;
   color: #ac6120;
   font-weight: bold;
+  text-align: center;
 }
 .large-font3 {
   font-size: 22px;
@@ -166,6 +172,7 @@ img {
 @media screen and (max-width: 1000px) {
   .column-66,
   .column-33,
+  .column-3,
   .column-full {
     width: 100%;
     text-align: left;
