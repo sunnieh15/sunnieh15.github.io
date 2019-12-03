@@ -163,6 +163,11 @@ a:hover {
   color: #000000;
   font-weight: bold;
 }
+.large-font5 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+}
 img {
   display: block;
   max-width: 100%;
