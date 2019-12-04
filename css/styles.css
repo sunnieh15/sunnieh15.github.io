@@ -656,6 +656,13 @@ input[type=checkbox]:checked ~ #menu{
   height: 100vh;
   width: 100%;
 }
+table { 
+    border-spacing: 0px;
+    border-collapse: separate;
+}
+td, th {
+padding: 0px;
+}
 
 
 
