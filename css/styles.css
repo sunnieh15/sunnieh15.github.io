@@ -104,7 +104,7 @@ a:hover {
 .column-33 {
   float: left;
   width: 25%;
-  padding: 20px;
+  padding: 10px;
 }
 .column-50 {
   float: left;
@@ -148,10 +148,10 @@ a:hover {
   font-weight: bold;
 }
 .large-font2 {
-  font-size: 20px;
-  color: #ac6120;
-  font-weight: bold;
-  text-align: center;
+    font-size: 22px;
+    color: #ac6120;
+    font-weight: bold;
+    text-align: center;
 }
 .large-font3 {
   font-size: 22px;
@@ -163,10 +163,23 @@ a:hover {
   color: #000000;
   font-weight: bold;
 }
-.large-font5 {
+.ministries-title {
+    font-size: 30px;
+    color: #ac6120;
+}
+.event-card-text {
   font-size: 16px;
   color: #000000;
+  margin-top:20px;
+}
+.video-card-title {
+  font-size: 18px;
+  color: #000000;
   font-weight: bold;
+}
+.video-card-text {
+  font-size: 16px;
+  color: #000000;
 }
 img {
   display: block;
@@ -633,11 +646,6 @@ input[type=checkbox]:checked ~ #menu{
   text-align: left;
   background-color: #ffffff;
 }
-@media screen and (max-width: 600px) {
-.ministrycard {
-  width: 100%;
-  display: block;
-}
 .logo {
   position:absolute;
   top: 25px;
@@ -648,4 +656,45 @@ input[type=checkbox]:checked ~ #menu{
   height: 100vh;
   width: 100%;
 }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+.card card-body h-100 {
+  width: 100%;
+  display: block;
+}
+}
+
+@media screen and (max-width: 1024px) {
+.card card-body h-100 {
+  width: 100%;
+  display: block;
+}
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+    and (-webkit-min-device-pixel-ratio: 2) {
+.card card-body h-100 {
+  width: 100%;
+  display: block;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+.card card-body h-100 {
+  width: 100%;
+  display: block;    
+    }      
+}
+
+    
+    
 
