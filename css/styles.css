@@ -684,16 +684,15 @@ table.center {
 
 
 
-
-@media screen and (max-width: 600px) {
-.card card-body h-100 {
+@media screen and (max-width: 800px) {
+.card .card-body h-100 {
   width: 100%;
   display: block;
 }
 }
 
 @media screen and (max-width: 1024px) {
-.card card-body h-100 {
+.card .card-body h-100 {
   width: 100%;
   display: block;
 }
@@ -703,7 +702,7 @@ table.center {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
     and (-webkit-min-device-pixel-ratio: 2) {
-.card card-body h-100 {
+.card .card-body h-100 {
   width: 100%;
   display: block;    
     }
@@ -713,7 +712,7 @@ table.center {
   and (min-device-width: 1024px) 
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 2){
-.card card-body h-100 {
+.card .card-body h-100 {
   width: 100%;
   display: block;    
     }      
