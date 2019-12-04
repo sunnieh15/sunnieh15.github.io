@@ -684,7 +684,13 @@ table.center {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 640px) {
+.card .card-body h-100 {
+  width: 100%;
+  display: block;
+}
+}
+@media screen and (max-width: 768px) {
 .card .card-body h-100 {
   width: 100%;
   display: block;
