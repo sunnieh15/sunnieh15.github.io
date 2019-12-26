@@ -62,6 +62,16 @@ a:hover {
   background-color: #0069d9 !important;
   border-color: #0062cc !important;
 }
+.btn-info {
+  color: #ffffff !important;
+  background-color: #ac6120 !important;
+  border-color: #ac6120 !important;
+}
+.btn-group-sm>.btn, .btn-sm  {
+  font-size: 14px !important;
+  padding: .20rem .5rem !important;
+  line-height: 1 !important;
+}
 .required {
   font-size: 12px;
   color: #eb0000;
@@ -116,6 +126,11 @@ a:hover {
   width: 33%;
   padding: 20px;
 }
+.column-2 {
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
 .column-full {
   float: left;
   width: 100%;
@@ -168,7 +183,7 @@ a:hover {
     color: #ac6120;
 }
 .event-card-text {
-  font-size: 16px;
+  font-size: 15px;
   color: #000000;
   margin-top:20px;
 }
@@ -679,7 +694,6 @@ table.center {
     width: 100%;
   }
 }
-
 @media screen and (max-width: 640px) {
 .card .card-body h-100 {
   width: 100%;
