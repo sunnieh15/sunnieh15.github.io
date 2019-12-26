@@ -86,25 +86,25 @@
           
         <p>Email us using the form below and we will get back to you as soon as possible.</p>
 
-        <form name="myForm" action="mailto:antiochbaptistchurch1105@gmail.com?subject=InquiryFromAntiochWebsite" onsubmit="return validateForm()" method="post"> 
+        <form name="myForm" action="mailto:antiochbaptistchurch1105@gmail.com?subject=Inquiry%20From%20the%20Antioch%20Baptist%20Church%20Website" onsubmit="return validateForm()" method="post" enctype="text/plain">
         <div>
         <label class="desc" for="name">Name <span class="required">*Required</span></label>
-        <div><input id="name" name="name" type="text" class="field text fn" value="" size="8"></div>
+        <div><input id="name" name="Name" type="text" class="field text fn" value="" size="8"></div>
         </div>
     
         <div>
         <label class="desc" for="email">Email <span class="required">*Required</span></label>
-        <div><input id="email" name="email" type="email" value="" maxlength="255"></div>
+        <div><input id="email" name="Email" type="email" value="" maxlength="255"></div>
         </div>
             
         <div>
           <label>Status</label>
             <div>
-            <input id="member" name="status" type="radio" value="Member" checked>
+            <input id="member" name="Status" type="radio" value="Member" checked>
             <label class="choice" for="member">Member</label>
             </div>
             <div>
-            <input id="nonmember" name="status" type="radio" value="Nonmember">
+            <input id="nonmember" name="Status" type="radio" value="Nonmember">
             <label class="choice" for="nonmember">Non Member</label>
             </div>
         </div>
@@ -112,23 +112,23 @@
         <div>
         <label class="desc" for="interest">Interest</label>
         <div>
-        <select id="interest" name="interest" class="field select medium"> 
+        <select id="interest" name="Interest" class="field select medium"> 
         <option selected disabled hidden style='display: none' value=''>&nbsp;</option>
-        <option value="Youth">Baby Dedication</option>
-        <option value="Women">Baptism</option>
-        <option value="Men">Prayer Request List</option>
-        <option value="Men">Sick and Shut-In List</option>
-        <option value="Men">Wedding</option>
+        <option value="Baby Dedication">Baby Dedication</option>
+        <option value="Baptism">Baptism</option>
+        <option value="Prayer Request List">Prayer Request List</option>
+        <option value="Sick and Shut-In List">Sick and Shut-In List</option>
+        <option value="Wedding">Wedding</option>
         </select>
         </div>
         </div>
     
         <div>
         <label class="desc" for="comment">Question/Comment</label>
-        <div><textarea id="comment" name="comment" spellcheck="true" rows="10" cols="50"></textarea></div>
+        <div><textarea id="comment" name="Comment" spellcheck="true" rows="10" cols="50"></textarea></div>
         </div>
   
-        <div><div><input type="submit" id="submit" name="submit" value="Submit Form" class="btn btn-primary"></div></div>
+        <div><div><input type="submit" id="submit" name="Submit" value="Submit Form" class="btn btn-primary"></div></div>
         </form>
 
       </div>
