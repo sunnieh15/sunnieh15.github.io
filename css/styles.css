@@ -64,11 +64,9 @@ a:hover {
 }
 .btn-info {
   color: #ffffff !important;
-  background-color: #ac6120 !important;
-  border-color: #ac6120 !important;
 }
 .btn-group-sm>.btn, .btn-sm  {
-  font-size: 14px !important;
+  font-size: 12px !important;
   padding: .20rem .5rem !important;
   line-height: 1 !important;
 }
